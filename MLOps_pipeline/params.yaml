@@ -1,2 +1,3 @@
-1_data_ingetsion:
-test_size = 20 # we can change it any time when needed
+1_data_ingestion:
+  dset_path: "E:\\complete ML\\MLOps\\MLOps\\MLOps_pipeline\\spam.csv"
+  dset_save_dir: "E:\\complete ML\\MLOps\\MLOps\\MLOps_pipeline\\data"
