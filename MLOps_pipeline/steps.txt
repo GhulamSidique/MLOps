@@ -1,0 +1,8 @@
+we will make use of the spam dataset from kaggle https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+
+# steps are 
+1. create a "src" folder that will have all files of a project (data ingestion, data preprocessing, feature engineering, model building and modoel evaluation)
+2. in each file create "Logs" that will contain the executional information of each function of a code file
+3. create a "params.yaml" file that will contain all parameters for each code file 
+4. create a "params" function by using yaml for each code file that will help load the parameters that are being used.
+
