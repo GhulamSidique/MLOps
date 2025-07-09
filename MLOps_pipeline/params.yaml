@@ -1,3 +1,7 @@
 1_data_ingestion:
   dset_path: "D:\\complete ML\\MLOps\\Lectures\\MLOps\\MLOps_pipeline\\spam.csv"
   dset_save_dir: "D:\\complete ML\\MLOps\\Lectures\\MLOps\\MLOps_pipeline\\data"
+
+2_data_preprocessing:
+  dset_path: "D:\\complete ML\\MLOps\\Lectures\\MLOps\\MLOps_pipeline\\data\\raw_dataset.csv"
+  dset_path2: "D:\\complete ML\\MLOps\\Lectures\\MLOps\\MLOps_pipeline\\data\\dataset.csv"
