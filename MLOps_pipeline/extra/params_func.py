@@ -6,7 +6,7 @@ from extra.logger_func import create_logger
 def load_params():
         # read the parameters
         try:
-            with open("D:\complete ML\MLOps\Lectures\MLOps\MLOps_pipeline\params.yaml", "r") as file:
+            with open("E:\complete ML\MLOps\MLOps\MLOps\MLOps_pipeline\params.yaml", "r") as file:
                 params = yaml.safe_load(file)
             # logger.debug("Loaded the parameters safely %s",params)
             return params

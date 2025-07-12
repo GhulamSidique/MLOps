@@ -1,7 +1,16 @@
 1_data_ingestion:
-  dset_path: "D:\\complete ML\\MLOps\\Lectures\\MLOps\\MLOps_pipeline\\spam.csv"
-  dset_save_dir: "D:\\complete ML\\MLOps\\Lectures\\MLOps\\MLOps_pipeline\\data"
+  dset_path: "E:\\complete ML\\MLOps\\MLOps\\MLOps\\MLOps_pipeline\\spam.csv"
+  dset_save_dir: "E:\\complete ML\\MLOps\\MLOps\\MLOps\\MLOps_pipeline\\data"
 
 2_data_preprocessing:
-  dset_path: "D:\\complete ML\\MLOps\\Lectures\\MLOps\\MLOps_pipeline\\data\\raw_dataset.csv"
-  dset_path2: "D:\\complete ML\\MLOps\\Lectures\\MLOps\\MLOps_pipeline\\data\\dataset.csv"
+  dset_path: "E:\\complete ML\\MLOps\\MLOps\\MLOps\\MLOps_pipeline\\data\\raw_dataset.csv"
+  dset_path2: "E:\\complete ML\\MLOps\\MLOps\\MLOps\\MLOps_pipeline\\data\\dataset.csv"
+
+3_model_building:
+  dset_path: "E:\\complete ML\\MLOps\\MLOps\\MLOps\\MLOps_pipeline\\data\\dataset.csv"
+  max_features: 10
+  test_size: 0.2
+  n_estimators: 10
+  random_state: 42
+  model_path: "E:\\complete ML\\MLOps\\MLOps\\MLOps\\MLOps_pipeline\\model\\model.pkl"
+

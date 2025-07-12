@@ -3,7 +3,7 @@ import logging, os
 def create_logger(logger_name):
         # create logging information both file and console handler
         # create the main folder logs
-        logs_dir= r"D:\complete ML\MLOps\Lectures\MLOps\MLOps_pipeline\logs" # we can change it any time when needed
+        logs_dir= r"E:\complete ML\MLOps\MLOps\MLOps\MLOps_pipeline\logs" # we can change it any time when needed
         os.makedirs(logs_dir, exist_ok=True)
 
         # create the file and console handler
