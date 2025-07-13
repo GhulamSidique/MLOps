@@ -10,3 +10,5 @@ when all functions are created we will then create a dvc.yaml file that will be 
 5. initialize dvc by "dvc init"
 6. now run the dvc.yaml file by --> dvc repro 
 7. to visualized the pipeline run --> dvc dag 
+8. download pip install dcvlive and also install dvc extension in vscode to see the experiments in it 
+9. open dvc extension and click on show experiments it will list down all the experiments just like we have in mlflow
