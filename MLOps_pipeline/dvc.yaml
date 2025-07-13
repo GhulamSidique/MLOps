@@ -1,0 +1,24 @@
+stages:
+  1_data_ingestion:
+    cmd: python src/1_data_ingestion.py
+    deps:
+      - src/1_data_ingestion.py
+    outs:
+      - data/raw_dataset.csv
+  
+  2_data_preprocessing:
+    cmd: python src/2_data_preprocessing.py
+    deps:
+      - data/raw_dataset.csv
+      - src/2_data_preprocessing.py
+    outs:
+      - data/dataset.csv
+  
+  3_model_building:
+    cmd: python src/3_model_building.py
+    deps:
+      - data/dataset.csv
+      - src/3_model_building.py
+    outs:
+      - model/model.pkl
+  

@@ -1,0 +1,46 @@
+schema: '2.0'
+stages:
+  1_data_ingestion:
+    cmd: python src/1_data_ingestion.py
+    deps:
+    - path: src/1_data_ingestion.py
+      hash: md5
+      md5: 85b1511f27dc365b4e1188c5b67ba9cb
+      size: 2379
+    outs:
+    - path: data/raw_dataset.csv
+      hash: md5
+      md5: f52c5c03ecaea40862d0eea311dc381b
+      size: 504895
+  2_data_preprocessing:
+    cmd: python src/2_data_preprocessing.py
+    deps:
+    - path: data/raw_dataset.csv
+      hash: md5
+      md5: f52c5c03ecaea40862d0eea311dc381b
+      size: 504895
+    - path: src/2_data_preprocessing.py
+      hash: md5
+      md5: 4bf2e54272bc168e84666f06bdf42e11
+      size: 4784
+    outs:
+    - path: data/dataset.csv
+      hash: md5
+      md5: fc6f93cf743fa6849c0a03a7442484d0
+      size: 278884
+  3_model_building:
+    cmd: python src/3_model_building.py
+    deps:
+    - path: data/dataset.csv
+      hash: md5
+      md5: fc6f93cf743fa6849c0a03a7442484d0
+      size: 278884
+    - path: src/3_model_building.py
+      hash: md5
+      md5: 96fa821f3a2d75422cf3f89e08993685
+      size: 3109
+    outs:
+    - path: model/model.pkl
+      hash: md5
+      md5: d41d8cd98f00b204e9800998ecf8427e
+      size: 0
