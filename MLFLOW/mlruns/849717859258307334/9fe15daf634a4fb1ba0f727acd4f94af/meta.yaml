@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/849717859258307334/9fe15daf634a4fb1ba0f727acd4f94af/artifacts
+deleted_time: 1752383227563
+end_time: 1752383152802
+entry_point_name: ''
+experiment_id: '849717859258307334'
+lifecycle_stage: deleted
+run_id: 9fe15daf634a4fb1ba0f727acd4f94af
+run_name: vaunted-deer-285
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752383152454
+status: 4
+tags: []
+user_id: PMYLS

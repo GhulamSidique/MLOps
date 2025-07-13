@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/849717859258307334/737536a41d4e4ad18eff2075bae4da73/artifacts
+end_time: 1752382989278
+entry_point_name: ''
+experiment_id: '849717859258307334'
+lifecycle_stage: active
+run_id: 737536a41d4e4ad18eff2075bae4da73
+run_name: aged-moose-724
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752382988933
+status: 3
+tags: []
+user_id: PMYLS
