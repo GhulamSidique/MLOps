@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/541824681651450132/bd89efc57c5f4ae1b46252c9c1c053ed/artifacts
+end_time: 1752384769459
+entry_point_name: ''
+experiment_id: '541824681651450132'
+lifecycle_stage: active
+run_id: bd89efc57c5f4ae1b46252c9c1c053ed
+run_name: merciful-bat-263
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752384762692
+status: 3
+tags: []
+user_id: PMYLS
