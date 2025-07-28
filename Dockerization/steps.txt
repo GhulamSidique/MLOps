@@ -1,0 +1,16 @@
+1. first create an app using flask and the file name is app.py
+2. create a Docker file named as dockerfile and it will display the docker logo and the write logic of dockerization inside it
+
+3. after dockerfile code we have to create a docker image and for this we run --> docker build -t filename/foldername (linked with step 7)
+
+4. open the dockerdesk and run the demo hello world image by opening terminal and typing--> docker pull hello-world
+5. run the image as --> docker run hello-world
+6. after experiencing delete it 
+
+7. after dockerfile, create an image now from vs code terminal as --> docker build -t filename
+8. as our image has been created now we can run it from powershell as well by --> docker run filename
+9. add tags to an image --> docker tag filename ghulamsidique(username same as dockerhub)/filename
+10. push an image to dockerhub as --> docker push username/filename:lastest1 --> here lastest1 is an optional argument 
+11. now check the repositroy of dockerhub
+12. pull an image --> docker pull username/filename:lastest1
+13 run the pulled image --> dockert run -p 5000:5000 username/filename:lastest1
