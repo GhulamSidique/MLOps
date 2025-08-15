@@ -1,0 +1,9 @@
+1. create and run the flask application (app.py) for testing purpose which is created by using html and css present in template and static folders respectively.
+2. prepare a docker file for the project 
+
+3. create a docker image using following docker commands
+docker build -t kubernetes-test-application:latest
+docker images
+docker run -p 5000:5000 kubernetes-test-application:latest
+
+4. create a deployment.yaml file 
